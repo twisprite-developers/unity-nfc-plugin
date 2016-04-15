@@ -93,16 +93,16 @@ Please check the /Assets/Scripts/Main.cs script, it provides a full example of t
 
 ## Code Overview
 
-/Scripts/Main.cs illustrates the usage of the plugin in both background and external reader mode.
+[/Assets/Scripts/Main.cs](https://github.com/twisprite-developers/unity-nfc-plugin/blob/master/Assets/Scripts/Main.cs) illustrates the usage of the plugin in both background and external reader mode.
 
-/Plugins/AndroidNFCReader.cs fires the native event to scan the NFC tag and retrieve the result.
+[/Assets/Plugins/AndroidNFCReader.cs](https://github.com/twisprite-developers/unity-nfc-plugin/blob/master/Assets/Plugins/AndroidNFCReader.cs) fires the native event to scan the NFC tag and retrieve the result.
 
-/Pugings/Android includes the /Assets/Plugins/Android/AndroidScan(.jar) native Java code and the Android manifest file required by the project.
+[/Assets/Pugings/Android](https://github.com/twisprite-developers/unity-nfc-plugin/tree/master/Assets/Plugins/Android) includes the /Assets/Plugins/Android/AndroidScan(.jar) native Java code and the Android manifest file required by the project.
 
 
 ## Customize the NFC Plugin
 
-The [anroid-nfc-plugin](https://github.com/twisprite-developers/glortens-dungeon) repository includes the Android Studio project to generate the AdroidScan.jar file inside the Plugins folder. It provides detail about how to recompile the jar.
+If you want to generate your own native plugin, the [anroid-nfc-plugin](https://github.com/twisprite-developers/anroid-nfc-plugin) repository includes the Android Studio project to generate the AdroidScan.jar file inside the Plugins folder.
 
 ## License
 
