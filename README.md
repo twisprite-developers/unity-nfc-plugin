@@ -1,3 +1,5 @@
+# Unsupported :(
+
 # Unity 3D Android NFC Plugin
 
 This project illustrates how to read a NFC tag from Unity 3D using an Android native plugin.
